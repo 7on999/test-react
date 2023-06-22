@@ -1,0 +1,9 @@
+
+.input {
+  outline: none;
+  cursor: pointer;
+}
+
+.cell {
+  cursor: pointer;
+}

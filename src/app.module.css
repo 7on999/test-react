@@ -1,0 +1,35 @@
+.main {
+  margin: 50px 0 0 100px;
+  padding: 30px;
+  width: fit-content;
+  display: flex;
+  gap: 32px;
+  background: rgba(66,170,255, 0.05);
+}
+
+.wrapperTableBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap:32px;
+  padding: 10px;
+  background-color: white;
+}
+
+.table2 {
+  height: min-content;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 14px;
+}
+
+.permissionBlockWrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  background-color: white;
+}
