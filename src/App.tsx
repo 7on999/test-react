@@ -1,7 +1,7 @@
-import {useEffect, useState} from 'react';
-import {Table, Cell} from './components/tablet/index'
+import { useEffect, useState } from 'react';
+import { Table, Cell } from './components/table/index'
 import { useAppSelector, useAppDispatch  } from './store/hooks'
-import {fetchTrains, } from './store/action-creators'
+import { fetchTrains } from './store/action-creators'
 import { selectTrain } from './store/reducer'
 import type { SpeedLimit } from './store/reducer'
 

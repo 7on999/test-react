@@ -1,4 +1,4 @@
-import TabletCell from '../tablet-cell';
+import TabletCell from '../table-cell';
 import styles from './tablet.module.css'
 
 export type Cell = {
