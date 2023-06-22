@@ -45,7 +45,7 @@ function App() {
     if (selectedRow!==null){
       const arrForSendToServerBeforeSort = structuredClone(trainsInfo[selectedRow].speedLimits)
       
-      const checkValid = arrForSendToServerBeforeSort.every(({speedLimit}:SpeedLimit)=>typeof(speedLimit)==='number' && speedLimit>0)
+      const checkValid = arrForSendToServerBeforeSort.every(({speedLimit}:SpeedLimit)=>typeof(speedLimit)==='number' && speedLimit>0 && speedLimit%1===0)
 
       if (!checkValid) {
         alert('Dы ввели неккоретные данные:скоростные ограничения должны быть положительными целыми числами.')
