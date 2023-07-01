@@ -1,3 +1,6 @@
+Выполнил все пункты по ТЗ
+
+<img src='./public/src-test-task.png'/>
 
 <a href='https://test-react-nu-three.vercel.app/' target="_blank" rel="noopener noreferrer nofollow"> click here to see this app </a>
 # Getting Started with Create React App
